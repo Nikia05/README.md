@@ -1,0 +1,141 @@
+header.container {
+    background-color: purple;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    font-size: 20px;
+}
+
+header a {
+  color: orange;
+  text-decoration: none;
+}
+
+header li {
+  display: inline-block;
+  margin: 0px;
+}
+
+nav {
+  display: inline-block;
+}
+
+body {
+	background-image: url(../images/background.jpg);
+  background-size: 100%;
+}
+
+main.container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+}
+
+span.halloween {
+    font-size: 18px;
+    color: orange;
+    font-weight: bold;
+}
+
+img.main {
+	margin-top: 0px;
+	margin-right: -40px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+  width: 640px;
+}
+
+h1 {
+	margin-left: 20px;
+	margin-right: 20px;
+  padding: 50px 75px 20px 75px;
+
+}
+
+.h1:hover {
+  width: 300px;
+}
+
+h2 {
+	margin-top: 0px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+p {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+li {
+	margin-left: -16px;
+	padding-top: 11px;
+}
+
+.a:hover {
+  background-color: purple;
+}
+
+a {
+   color: oldlace;
+   color: orange;
+   text-decoration: none;
+   border: 1px;
+   padding: 10px 20px;
+   background: purple;
+   border-radius: 3px;
+   margin-left: 200px;
+   margin-right: 0px;
+   margin-top: 50px;
+}
+
+
+h3 {
+	margin-left: 20px;
+	margin-right: 20px;
+  position: relative;
+  top: 10px;
+  padding: 20px;
+}
+
+img {
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+  float: right;
+}
+
+.img:hover {
+  width: 300px;
+}
+
+ul {
+  padding: 20px;
+	margin-right: 20px;
+  margin-left: 20px;
+  ;
+}
+
+
+.bat1 {
+  position: absolute;
+  top: -50px;
+  left: 20px;
+  animation: fly 5s;
+  animation-iteration-count: infinite;
+}
+
+
+
+
+@keyframes fly {
+  from {
+    transform: translateX(0px);
+  }
+  to{
+    transform: translateX(200px);
+  }
+}
